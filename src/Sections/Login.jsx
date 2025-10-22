@@ -15,7 +15,7 @@ export default function Login() {
       password: password
     }
 
-    let res = await fetch("http://localhost:5000/login", {
+    let res = await fetch("https://products-backend-qdbl.onrender.com/login", {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(user)
