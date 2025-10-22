@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+.input{
+  @apply py-3 px-4 border-2 border-gray-500 outline-none rounded-md text-[17px] mb-3
+}
+
+.header-link{
+  @apply p-3 cursor-pointer
+}
+
+.shopify-button{
+  @apply py-3  text-lg w-[calc(50%-10px)] rounded-xl cursor-pointer flex items-center justify-center
+}
